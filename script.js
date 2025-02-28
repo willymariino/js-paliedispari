@@ -10,4 +10,5 @@ function reverseWord(normalWord) {
     return newstring
 
 }
-console.log(newstring)
+let newstring = reverseWord
+console.log(reverseWord)
