@@ -22,8 +22,6 @@ else {
 
     else {
 
-        console.log("l'utente ha scelto")
-
         // generazione random del numero del computer
         let num1 = Math.round(Math.random() * 5) + 1;
         console.log("numero generato dal computer", num1) // è uguale all'altro algoritmo, non so perchè questo funziona e stampa in console, mentre l'altro non stampava.
