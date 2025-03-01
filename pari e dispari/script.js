@@ -17,9 +17,9 @@ const userGuess = (prompt('inserisci la parola "pari" oppure "dispari" '));
 console.log("l'utente ha scelto - ", userGuess)
 
 // generazione random del numero del computer
-let num1 = Math.round(Math.random() * 4) + 1; {
-    console.log("numero generato dal computer", num1) // è uguale all'altro algoritmo, non so perchè questo funziona e stampa in console, mentre l'altro non stampava.
-}
+let num1 = Math.round(Math.random() * 5) + 1;
+console.log("numero generato dal computer", num1) // è uguale all'altro algoritmo, non so perchè questo funziona e stampa in console, mentre l'altro non stampava.
+
 
 // somma dei due numeri
 let sum = userNumber + num1; { // prima avevo messo userNumber + num1 tra parentesi, rimane il dubbio su quando ci vogliono le parentesi e quando no
@@ -41,7 +41,7 @@ if (userGuess === result) {
     console.log("ha vinto l'utente");
 }
 else {
-    console.log("ha vinto il computer")
+    console.log("ha vinto il computer");
 }
 
 
