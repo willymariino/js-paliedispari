@@ -1,8 +1,8 @@
 // input numero dell'utente
-const userNumber = parseInt(prompt('inserisci un numero'));
+const userNumber = parseInt(prompt('inserisci un numero da 1 a 5'));
 
 // validazione dell'input dell'utente per il numero inserito
-const validNumber = !isNaN(userNumber);
+const validNumber = !isNaN(userNumber) && userNumber >= 1 && userNumber <= 5;
 console.log(userNumber)
 
 // input dell'utente se il risultato sarà pari o dispari
