@@ -27,10 +27,8 @@ let sum = userNumber + num1; { // prima avevo messo userNumber + num1 tra parent
 }
 
 // calcolo se il risultato è pari o dispari
-if (sum % 2 !== 0) {
-    console.log("dispari")
+let result = (sum % 2 === 0) ? "pari" : "dispari"; {
+    console.log("risultato", result);
 }
 
-else {  // non capisco perchè se metto qualcos'altro rispetto a else da errore
-    console.log("pari")
-}
+
