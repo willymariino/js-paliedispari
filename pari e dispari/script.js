@@ -27,8 +27,21 @@ let sum = userNumber + num1; { // prima avevo messo userNumber + num1 tra parent
 }
 
 // calcolo se il risultato è pari o dispari
-let result = (sum % 2 === 0) ? "pari" : "dispari"; {
-    console.log("risultato", result);
+let result;
+if (sum % 2 === 0) {
+    result = "pari";
+}
+else {
+    result = "dispari";
+}
+console.log("risultato", result);
+
+// confronto tra la scelta dell'utente e il risultato della somma
+if (userGuess === result) {
+    console.log("ha vinto l'utente");
+}
+else {
+    console.log("ha vinto il computer")
 }
 
 
