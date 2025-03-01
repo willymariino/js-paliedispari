@@ -18,7 +18,7 @@ console.log("l'utente ha scelto - ", userGuess)
 
 // generazione random del numero del computer
 let num1 = Math.round(Math.random() * 4) + 1; {
-    console.log(num1) // è uguale all'altro algoritmo, non so perchè questo funziona e stampa in console, mentre l'altro non stampava.
+    console.log("numero generato dal computer", num1) // è uguale all'altro algoritmo, non so perchè questo funziona e stampa in console, mentre l'altro non stampava.
 }
 
 // somma dei due numeri
