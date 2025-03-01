@@ -4,7 +4,7 @@ console.log(userNumber)
 const userGuess = (prompt('inserisci la parola "pari" oppure "dispari" '));
 console.log(userGuess)
 
-let cpuNumber = Math.round(Math.random() * 4) + 1; {
-    console.log(cpuNumber) // non capisco perchè non stampa in console il numero random
+let num1 = Math.round(Math.random() * 4) + 1; {
+    console.log(num1) // non capisco perchè non stampa in console il numero random
 }
 
