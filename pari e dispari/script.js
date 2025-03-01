@@ -3,11 +3,18 @@ const userNumber = parseInt(prompt('inserisci un numero da 1 a 5'));
 
 // validazione dell'input dell'utente per il numero inserito
 const validNumber = !isNaN(userNumber) && userNumber >= 1 && userNumber <= 5;
-console.log(userNumber)
+
+if (!validNumber) {
+    console.log("numero non valido. ricarica la pagina e scegline un altro")
+}
+
+else {
+    console.log("l'utente ha scelto", userNumber)
+}
 
 // input dell'utente se il risultato sarà pari o dispari
 const userGuess = (prompt('inserisci la parola "pari" oppure "dispari" '));
-console.log("l'utente ha scelto - " + userGuess)
+console.log("l'utente ha scelto - ", userGuess)
 
 // generazione random del numero del computer
 let num1 = Math.round(Math.random() * 4) + 1; {
